@@ -1,4 +1,4 @@
-import pool from '@/lib/db';
+import { pool } from '@/lib/db';
 import { redirect } from "next/navigation";
 
 export  default async function RedirectPage({params}) {
